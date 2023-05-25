@@ -7,10 +7,11 @@
 body{
 	width: 100%;
 	min-height: 100vh;
-	display: flex;
+	display: block;
 	justify-content: center;
 	align-content: center;
 	background-color: #2b2a2f;
+	padding: 20px;
 }
 
 .about{
