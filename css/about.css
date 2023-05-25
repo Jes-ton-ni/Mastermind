@@ -102,9 +102,9 @@ body{
 	align-content: center;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 15px 20px;
+	grid-gap: 10px 20px;
 	margin-top: 14px;
-	padding: 20px;
+	padding: 10px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #555;
 }
