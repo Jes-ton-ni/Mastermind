@@ -1,11 +1,7 @@
-
-	
-	
-
 body {
 	background-image: url("../img/bg1.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+    	background-size: cover;
+    	background-attachment: fixed;
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
@@ -114,8 +110,8 @@ nav a {
 /*Home*/
 .container{
 	display: flex;
-    justify-content: center;
-    align-items: center;
+    	justify-content: center;
+    	align-items: center;
 	flex-wrap: wrap;
   	align-items: center;
 }
@@ -242,7 +238,7 @@ nav a {
 	margin-top: 75px;
 	display: flex;
 	justify-content: center;
-    align-items: center;
+    	align-items: center;
 	flex-wrap: wrap;
   	align-items: center;
   	padding: 20px;
