@@ -39,10 +39,11 @@ body{
 
 .about_container .about_contents{
 	display: flex;
-    justify-content: center;
-    align-items: center;
+    	justify-content: center;
+    	align-items: center;
 	flex-wrap: wrap;
   	align-items: center;
+	margin-left: 55px;
 	padding: 10px;
 }
 
