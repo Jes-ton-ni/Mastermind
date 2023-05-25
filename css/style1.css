@@ -3,7 +3,7 @@
 	
 
 body {
-	background-image: url('img\\bg1.jpg');
+	background-image: url('bg1.jpg');
     background-size: cover;
     background-attachment: fixed;
 	margin: 0;
