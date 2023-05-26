@@ -48,13 +48,16 @@ a{
   	padding: 10px;
 	margin: auto;
 }
-
-.image{
-	height: 75px;
-	width: 75px;
-	padding: 10px;
+.contact-info .media{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
 }
 
+.image{
+	height: 95px;
+	width: 95px;
+}
 
 .contact-info .media:hover img {
 	background: #676767;
