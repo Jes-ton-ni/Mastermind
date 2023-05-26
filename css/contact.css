@@ -45,7 +45,7 @@ a{
   	justify-content: center;
   	align-items: center;
   	border-radius: 25px;
-	margin: auto;
+	padding: 10px;
 }
 .contact-info .media{
 	display: flex;
@@ -55,6 +55,7 @@ a{
 .image{
 	height: 95px;
 	width: 95px;
+	padding: 10px;
 }
 
 .contact-info .media:hover img {
