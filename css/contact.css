@@ -1,6 +1,31 @@
 /*Contact info*/
+
 .contact{
 	margin-top: 75px;
+	display: block;
+	
+}
+
+.contact .contactme{
+	font-family: helvetica;
+}
+
+.contact .contactme h2{
+	display: block;
+	color: #efeeec;
+    font-size: 34px;
+    text-align: center;
+}
+
+.contact .contactme p{
+	display: block;
+	color: #cacbd5;
+    font-size: 26px;
+    line-height: .5px;
+    text-align: center;
+}
+
+.contact .platforms{
 	display: flex;
 	justify-content: center;
     align-items: center;
@@ -8,14 +33,14 @@
   	align-items: center;
   	padding: 20px;
 }
-
 .contact-info{
 	display: block;
-	background: #000;
+	/*background: #000;*/
 	color: #fff;
 	text-align: center;
   	justify-content: center;
   	align-items: center;
+  	line-height: 1.5px;
   	border-radius: 25px;
   	padding: 10px;
 	margin: auto;
