@@ -45,13 +45,11 @@ a{
   	justify-content: center;
   	align-items: center;
   	border-radius: 25px;
-  	padding: 10px;
 	margin: auto;
 }
 .contact-info .media{
 	display: flex;
 	flex-wrap: wrap;
-	padding: 5px;
 }
 
 .image{
