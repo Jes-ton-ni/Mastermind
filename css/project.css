@@ -1,0 +1,58 @@
+/*projects*/
+.bod{
+	margin-top: 75px;
+	display: block;
+}
+
+.work h2{
+	display: block;
+	color: #efeeec;
+    font-size: 34px;
+    text-align: center;
+}
+
+.work p{
+	display: block;
+	color: #cacbd5;
+    font-size: 26px;
+    text-align: center;
+}
+
+.project{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.project-img {
+	padding: 0 6px;
+
+	width: 35%;
+}
+
+div.gallery img {
+  width: 90%;
+  height: auto;
+}
+
+.description{
+	margin-top: -25px;
+	padding: 25px;
+	justify-content: center;
+	text-align: center;
+}
+
+.description h2{
+	display: block;
+	color: #efeeec;
+    font-size: 26px;
+    text-align: center;
+}
+
+.description p{
+	display: block;
+	color: #cacbd5;
+    font-size: 14px;
+    text-align: center;
+}
