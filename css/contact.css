@@ -1,0 +1,27 @@
+/*Contact info*/
+.contact{
+	margin-top: 75px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	flex-wrap: wrap;
+  	align-items: center;
+  	padding: 20px;
+}
+
+.contact-info{
+	display: block;
+	background: #000;
+	color: #fff;
+	text-align: center;
+  	justify-content: center;
+  	align-items: center;
+  	border-radius: 25px;
+  	padding: 10px;
+	margin: auto;
+}
+
+.image{
+	height: 75px;
+	width: 75px;
+}
