@@ -5,17 +5,15 @@
 }
 
 body{
-	width: 100%;
-	min-height: 100vh;
 	display: block;
 	justify-content: center;
 	align-content: center;
-	background-color: #2b2a2f;
 	padding: 20px;
 }
 
 .about{
 	display: block;
+	padding: 45px;
 	margin-top: 45px;
 	align-items: center;
 }
@@ -40,11 +38,10 @@ body{
 
 .about_container .about_contents{
 	display: flex;
-    	justify-content: center;
-    	align-items: center;
+	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
   	align-items: center;
-	margin-left: 55px;
 	padding: 10px;
 }
 
@@ -75,8 +72,8 @@ body{
 
 .about_contents .image img{
 	padding: 20px;
-	width: 300px; 
-  	height: 300px; 
+	width: 250px; 
+  	height: 250px; 
   	margin-top: -55px;
 	margin-left: -55px;
 	
@@ -84,7 +81,7 @@ body{
 
 .infoSection h2{
 	font-family: helvetica;
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: 600;
 	color: #787cb5;
 	padding: 14px 0px 15px;
@@ -94,31 +91,26 @@ body{
 
 .infoSection p{
 	color: #aaabb0;
-	font-size: 24px;
+	font-size: 26px;
 	line-height: 1.2;
 	text-align: justify;
 	padding-bottom:8px;
 }
 
+
 .personalInfo{
 	align-content: center;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 20px 30px;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 20px 20px;
 	margin-top: 14px;
-	margin-left: 75px;
-	padding: 45px;
+	padding: 25px;
 	border-top: 2px solid #555;
 	border-bottom: 2px solid #555;
 }
 
-.personalInfo .info{
-	display: grid;
-	grid-template-columns: 1fr 5fr;
-}
-
-.personalInfo .info p{
+.personalInfo p{
 	color: #aaabb0;
-	font-size: 25px;
+	font-size: 18px;
 	letter-spacing: 1px;
 }
