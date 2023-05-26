@@ -21,13 +21,14 @@
 .project{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
 	align-items: center;
 	padding: 20px;
 }
 
 .project-img {
-	padding: 0 6px;
-
+	padding: 10px;
 	width: 35%;
 }
 
@@ -37,13 +38,16 @@ div.gallery img {
 }
 
 .description{
-	margin-top: -25px;
-	padding: 25px;
+	background: red;
 	justify-content: center;
+	align-content: center;
 	text-align: center;
+	width: 90%;
+	padding: 5px;
 }
 
 .description h2{
+	margin-top: -5px;
 	display: block;
 	color: #efeeec;
     font-size: 26px;
