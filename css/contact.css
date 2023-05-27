@@ -2,10 +2,8 @@
 
 .contact{
 	margin-top: 75px;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	flex-direction: column;
+	display: block;
+	align-items: center;
 }
 
 .contactme{
@@ -38,10 +36,8 @@ a{
 	flex-wrap: wrap;
 	align-content: center;
 	padding: 20px;
-  	margin-top: 45px;
 }
 .contact-info{
-	display: block;
 	color: #fff;
 	text-align: center;
   	justify-content: center;
@@ -56,9 +52,9 @@ a{
 }
 
 .media .image{
-	position: relative;
+	/*position: relative;*/
 	margin: 0 45px; 
-	height: 80px;
+	height: auto;
 	width: 80px;
 	padding: 10px;
 }
