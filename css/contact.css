@@ -2,22 +2,25 @@
 
 .contact{
 	margin-top: 75px;
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
 }
 
-.contact .contactme{
+.contactme{
 	font-family: helvetica;
 	padding: 20px;
 }
 
-.contact .contactme h2{
+.contactme h2{
 	display: block;
 	color: #efeeec;
     font-size: 34px;
     text-align: center;
 }
 
-.contact .contactme p{
+.contactme p{
 	display: block;
 	color: #cacbd5;
     font-size: 26px;
@@ -33,7 +36,6 @@ a{
 	display: flex;
 	justify-content: center;
     align-items: center;
-  	align-items: center;
   	margin-top: 45px;
 }
 .contact-info{
